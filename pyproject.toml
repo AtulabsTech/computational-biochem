@@ -1,17 +1,23 @@
 [project]
-name = "scd"
+name = "cb"
 version = "0.1.0"
-description = "The Sickle Cell Disease"
+description = "Computational biochemistry and molecular dynamics lab (Atu Labs curriculum)"
 readme = "README.md"
 authors = [
     { name = "James Rowa", email = "j*****@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
-
-[project.scripts]
-scd = "scd:main"
+dependencies = [
+    "biopython>=1.88",
+    "matplotlib>=3.11.2",
+]
 
 [build-system]
 requires = ["uv_build>=0.12.15,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.6.4",
+    "pytest>=9.1.1",
+]

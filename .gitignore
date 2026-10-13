@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large simulation outputs (later phases)
+*.xtc
+*.trr
+*.dcd
+*.nc
