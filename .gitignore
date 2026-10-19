@@ -17,3 +17,6 @@ wheels/
 *.trr
 *.dcd
 *.nc
+
+# Secrets
+.env
