@@ -20,7 +20,7 @@ specific to one biology.
 
 ```
 src/cb/        reusable, domain-independent Python package (tested)
-tests/         tests for src/cb, mirroring its layout
+tests/         tests for src/cb, mirroring its layout (e.g. tests/seq/test_translation.py)
 phases/NN-*/   one folder per phase
   <track>/data/raw/       downloaded inputs, never edited; listed in data/SOURCES.md
   <track>/notebooks/      numbered to match the modules: 01_, 02_, 03_

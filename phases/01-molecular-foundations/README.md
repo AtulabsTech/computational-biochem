@@ -15,6 +15,9 @@ Define terms here as you meet them, in your own words.
 | Term | Definition |
 |------|------------|
 |      |            |
+| CDS | Coding sequence: the part of an mRNA that is translated into protein. |
+| Mature-protein numbering | Residue numbering after the initiator Met is cleaved off, so Val is residue 1 in β-globin. The legacy name Glu6Val uses it. |
+| HGVS | Standard variant nomenclature. It counts the initiator Met as residue 1, so Glu6Val is p.Glu7Val. |
 
 ## Modules
 
